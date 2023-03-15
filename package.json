@@ -14,6 +14,10 @@
         "lint-check": "eslint --max-warnings 0 **/*.{ts,tsx}"
     },
     "dependencies": {
+        "@emotion/react": "^11.10.6",
+        "@emotion/styled": "^11.10.6",
+        "@mui/icons-material": "^5.11.11",
+        "@mui/material": "^5.11.13",
         "@next/font": "13.2.4",
         "@types/node": "18.15.0",
         "@types/react": "18.0.28",
