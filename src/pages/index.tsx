@@ -2,7 +2,11 @@ import React from 'react';
 import Head from 'next/head';
 import { useEffect } from 'react';
 import * as zoomApi from '../apis/index';
+import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
+import Dashboard from '../components/dashboard/Dashboard';
 
 export default function Home() {
 	const getSample = async () => {
@@ -14,9 +18,5 @@ export default function Home() {
 		getSample();
 	}, []);
 
-	return (
-		<div>
-			<Button variant="contained">Hello World</Button>
-		</div>
-	);
+	return <Dashboard />;
 }
