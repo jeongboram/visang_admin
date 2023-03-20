@@ -20,11 +20,11 @@ export const mainListItems = (
 		</ListItemButton>
 		<ListItemButton>
 			<ListItemIcon>
-				<ShoppingCartIcon />
+				<AssignmentIcon />
 			</ListItemIcon>
-			<ListItemText primary="Orders" />
+			<ListItemText primary="Daily Report" />
 		</ListItemButton>
-		<ListItemButton>
+		{/* <ListItemButton>
 			<ListItemIcon>
 				<PeopleIcon />
 			</ListItemIcon>
@@ -41,7 +41,7 @@ export const mainListItems = (
 				<LayersIcon />
 			</ListItemIcon>
 			<ListItemText primary="Integrations" />
-		</ListItemButton>
+		</ListItemButton> */}
 	</React.Fragment>
 );
 
