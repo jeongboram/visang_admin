@@ -7,6 +7,7 @@ import * as zoomApi from '@apis/index';
 import { Report } from '@mui/icons-material';
 import { CircularProgress, Grid } from '@mui/material';
 import { Box } from '@mui/system';
+import Link from 'next/link';
 
 // Generate Sales Data
 
@@ -54,6 +55,7 @@ export default function Chart() {
 			{!isLoading && (
 				<>
 					<Title>데일리 리포트 {`${dailyReport?.year}년 ${dailyReport?.month}월`}</Title>
+					<Link href={`/report/daily`}>더보기</Link>
 					<ResponsiveContainer>
 						<LineChart
 							data={dataRes}
